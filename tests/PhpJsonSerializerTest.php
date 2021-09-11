@@ -5,6 +5,7 @@ use Walnut\Lib\JsonSerializer\JsonSerializerException;
 use Walnut\Lib\JsonSerializer\PhpJsonSerializer;
 
 final class PhpJsonSerializerTest extends TestCase {
+
 	public function testSerializeOk(): void {
 		$this->assertEquals('"TEST"', $this->getJsonSerializer()->encode("TEST"));
 	}

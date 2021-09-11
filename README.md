@@ -3,8 +3,7 @@ This is library a very tiny wrapper that provides a simple object-oriented inter
 
 ## Examples
 The usage is straightforward (same as json_encode/json_decode)
- 
-- For adding a product:
+
 ```php
 $serializer = new PhpJsonSerializer;
 
